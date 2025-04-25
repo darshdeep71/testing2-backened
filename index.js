@@ -41,10 +41,10 @@ app.get( '/get', async (req, resp)=>{
     // resp.send(b)
     // console.log(b)
     // result = result.length;
-    resp.send(result)
-    // resp.send(result.length)
-    console.log(result)
-    // console.log(result.length)
+    // resp.send(result)
+    resp.send(result.length)
+    // console.log(result)
+    console.log(result.length)
     // if(b==1224444) {
     //     resp.send(b)
     //     console.log("yes")
